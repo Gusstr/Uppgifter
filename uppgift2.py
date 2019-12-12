@@ -2,6 +2,7 @@ q = str(input("Skriv: "))
 
 def questionify(A):
     output = A + "?"
-    print(output)
+    return output
 
-questionify(q)
+q = questionify(q)
+print(q)
