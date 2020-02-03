@@ -1,8 +1,6 @@
-Alist = ["A", "B", "A"]
+Alist = ["A", "B", "C"]
 def has_equalend_to(A):
-    if A[0] == A[-1]:
-        return True
-    else:
-        return False
+    return A[0] == A[-1]
+
 
 print(has_equalend_to(Alist))
